@@ -4,9 +4,14 @@ plugins {
 
 repositories {
     jcenter()
+    maven { url "https://jitpack.io" }
 }
 
+group = "com.hanspistor"
+version = "1.0"
+
 dependencies {
-    implementation project(":common")
+    implementation "com.github.hans-pistor:aoc-common:master-SNAPSHOT"
     testImplementation 'junit:junit:4.13'
 }
+
