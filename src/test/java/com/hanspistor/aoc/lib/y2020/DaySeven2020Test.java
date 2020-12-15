@@ -35,6 +35,6 @@ public class DaySeven2020Test {
 
         Function<Stream<String>, String> fn = day::solvePartTwo;
         String result = fn.apply(stringStream);
-//        Assert.assertEquals("6", result);
+        Assert.assertEquals("32", result);
     }
 }
